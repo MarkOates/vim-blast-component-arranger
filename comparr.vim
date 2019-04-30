@@ -108,8 +108,8 @@ function ArrangeVimFor(type)
   let l:component_test_filename = "tests/" . l:basename . "Test.cpp"
 
   if FileExists(l:component_quintessence_filename)
-    echo "✅ exists: " . l:component_quintessence_filename
-    echo "✅ exists: " . l:component_test_filename
+    " echo "✅ exists: " . l:component_quintessence_filename
+    " echo "✅ exists: " . l:component_test_filename
   else
     echohl Error
     echo "basename does not exist: " . l:component_quintessence_filename
