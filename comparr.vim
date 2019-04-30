@@ -119,6 +119,8 @@ function ArrangeVimFor(type)
   endif
 
   call CloseAllTheWindows()
+  exec ":e " . l:component_quintessence_filename
+  exec ":vs " . l:component_test_filename
 endfunction
 
 
